@@ -1,0 +1,44 @@
+@font-face{
+    src:url(Roboto-Italic.ttf);
+    font-Family: Roboto-Italic
+}
+@font-face{
+    src:url(OpenSans-VariableFont_wdth,wght.ttf);
+    font-Family: "Open sans"
+}
+
+h1{
+    color: rgb(12, 12, 11);
+    border: 3px solid black;
+    text-shadow: 3px 3px 5px red, 3px 3px 5px blue;
+}
+#p1{
+    color: red;
+    font-family: Roboto;
+    border-bottom: 2px dotted black;
+    border-top: 3px solid red;
+    border-left: 4px dashed yellow;
+    border-right: 5px dashed green;
+}
+#p2{
+    color: yellow;
+    font-family: "Open sans";
+    font-size: 0.9em;
+}
+#p3{
+    color: blue;
+    font-family: "Open sans";
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(202, 202, 120);
+    box-shadow: 3px 3px 5px green;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+    margin:auto;
+}
